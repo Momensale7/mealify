@@ -1,0 +1,191 @@
+
+@media  (max-width: 400px) {
+    .btn-group {
+        flex-direction: column ;
+     }
+    }
+/* ...........................................from 768px and greater.......................... */
+@media  (min-width: 768px) {
+    .btn-group {
+        flex-direction: row;
+    }
+/* ------------------------------------ */
+    .chef-contain { 
+        flex-direction: row;
+        flex-wrap:wrap ;
+        justify-content: space-between;
+
+    }
+
+    .chef-exp{
+        width: 47%;
+    }
+   /* ----------------------------------- */
+   .gallery-pics {
+    height: 1500px;
+   }
+   .gallery-pics .pic {
+        width: calc(calc(100% - 20px) / 2);
+      }
+      /* *********************************** */
+
+      .contat-details {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+    }
+    .detail-t{
+        width:42%;
+    }
+    /* 33333333333333333333333333333333333333 */
+    .feild-fo .fo-50{
+        width: 49%;
+    }
+    .feild-fo{
+        margin-top: 20px;
+        display: flex ;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-between;
+   }
+   /* 00000000000000000000000 */
+   .footer .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fo-logo{
+    width: 40%;
+    margin-top: 10px;
+}
+.subscribe{
+    order: 3;
+    width: 100%;
+    margin-top: 10px;
+}
+.subscribe .quick {
+    width: 60%;
+    gap: 10px;
+}
+.subscribe form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+}
+/* ...........................................from 992px and greater.......................... */
+@media  (min-width: 992px) {
+    .chef-contain { 
+        flex-direction: row;
+        flex-wrap:nowrap ;
+    }
+
+    .chef-exp{
+        width: 100%;
+    }
+/* ------------------------------------- */
+.gallery-pics {
+    height: 1000px;
+   }
+   .gallery-pics .pic {
+        width: calc(calc(100% - 40px) / 3);
+      }
+      .pizza {
+        order: 1;
+    }
+    
+    .steak {
+        order: 3;
+    }
+    
+    .burger {
+        order: 5;
+    }
+    
+    .pizza-sl {
+        order: 2;
+    }
+    
+    .dabos {
+        order: 6;
+    }
+    
+    .kofta {
+        order: 7;
+    }
+    
+    .omlete {
+        order: 4 ;
+    }
+/* ******************************* */
+.detail-t{
+    width:44%;
+}
+/* 000000000000000000000000000000000 */
+.footer .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap:10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.fo-logo{
+    width: 25%;
+    margin-top: 10px;
+}
+.subscribe{
+order: 0;
+    width: 50%;
+    margin-top: 10px;
+}
+.subscribe .quick {
+    width: 60%;
+    gap: 10px;
+}
+.subscribe form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}   
+
+}
+
+    
+
+    /* ...........................................from 1200px and greater.......................... */
+@media screen and (min-width: 1200px) {
+    .nav ul{
+        display: flex;
+    /* -------------------------------- */
+    }
+    .home .container {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .home-caption  {
+        width: 40%;
+    }
+    .fa-bars {
+    visibility: hidden;
+    }
+/* ------------------------------- */
+.gallery-pics {
+    height: 1100px;
+   }
+   .gallery-pics .pic {
+        width: calc(calc(100% - 40px) / 3);
+      }
+
+      /* ooooooooooooooooooooooooooooooo */
+    
+    }
+
