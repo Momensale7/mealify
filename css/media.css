@@ -22,7 +22,7 @@
     }
    /* ----------------------------------- */
    .gallery-pics {
-    height: 1550px;
+    height: 1700px;
    }
    .gallery-pics .pic {
         width: calc(calc(100% - 20px) / 2);
